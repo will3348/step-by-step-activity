@@ -15,14 +15,14 @@
 - ``` npm install --save next react react-dom ```
 - When the installation is complete, open your package.json file and add this code to the "scripts" section:
 -   ```Javascript
-  {
+    {
     "scripts": {
       "dev": "next",
       "build": "next build",
       "start": "next start"
     }
-  }
-  ```
+    }
+    ```
 - Here's a quick rundown on what each script does:
   - dev: used to run the application when you're in development mode. This means your code will run with special error handling, hot-reloading, and other features that make the development process easier.
   - build: will compile your code into server and browser code that will run on a server in production.
@@ -31,7 +31,7 @@
 - Open a new file called index.js in the /pages directory of your project:
 - ``` touch /pages/index.js```
 - And add this code to the file:
-- ``` Javascript
+- ``` JavaScript
   function Homepage() {
     return <div>Your Next.js Application</div>
   }
