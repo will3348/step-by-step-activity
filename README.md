@@ -1,4 +1,4 @@
-# step-by-step-activity
+# Step-by-step-activity
 # To Create a React Web Application with Next.js
 ## Next.js
 - Next.js is a framework that makes building React applications super easy to get started with. It's usually used to create static and server-rendered applications. The basic install will give you styling and routing out of the box.
